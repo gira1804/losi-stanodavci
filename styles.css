@@ -1,0 +1,97 @@
+body {font-family: Calibri;  background:#transparent; padding: 0; margin: auto; width: 870px; overflow: overlay}
+
+@media only screen and (max-width: 900px) {
+  body {
+    width: 100%;
+  }
+}
+
+div.header {background:#ffffff; width: 100%;}
+div.content {background: #ffffff; padding: 5px; padding-left: 0.5em; padding-right: 0.5em; padding-bottom:0.5em; margin: 5px; border: 2px solid #cccccc; border-radius: 1em}
+
+
+
+div.navbar {margin: 1em; margin-top: 0em}
+h2 {font-size: 16px;}
+h3 {border-bottom: 3px solid #555555; background: #777777; margin-top: 0.5em; margin-bottom:auto; border-radius: 0.5em 0.5em 0px 0px; color: #ffffff; padding-left: 0.5em; padding-right: 0.5em}
+
+a {white-space: nowrap;}
+a.main {white-space:normal;}
+
+a:link {color: #543756; background-color: transparent; text-decoration: none;}
+a:visited {color: #543756; background-color: transparent; text-decoration: none;}
+a:hover {color: #ffffff; background-color: #ae73b1; text-decoration: none;}
+a:active {color: #543756; background-color: transparent; text-decoration: underline;}
+
+a.veza:link  {background-color: #ffffcc; border: 1px solid #ccaaaa;}
+a.veza:visited  {background-color: #ffffcc; border: 1px solid #ccaaaa;}
+a.veza:active  {background-color: #ffffcc; border: 1px solid #ccaaaa;}
+a.veza:hover  {color: #ffffff; background-color: #ae73b1; text-decoration: none;}
+a.veza:before {content:  url('./file_icons/html.png');}
+
+a[href$=".pdf/file"]:link  {background-color: #ffdddd; border: 1px solid #ccaaaa;}
+a[href$=".pdf/file"]:visited  {background-color: #ffdddd; border: 1px solid #ccaaaa;}
+a[href$=".pdf/file"]:active  {background-color: #ffdddd; border: 1px solid #ccaaaa;}
+a[href$=".pdf/file"]:hover  {color: #ffffff; background-color: #ae73b1; text-decoration: none;}
+a[href$=".pdf/file"]:before {content:  url('./file_icons/pdf.png');}
+
+a[href$=".ppt/file"]:link{background-color: #ffddcc; border: 1px solid #ccaaaa;}
+a[href$=".ppt/file"]:visited{background-color: #ffddcc; border: 1px solid #ccaaaa;}
+a[href$=".ppt/file"]:active{background-color: #ffddcc; border: 1px solid #ccaaaa;}
+a[href$=".ppt/file"]:hover {color: #ffffff; background-color: #ae73b1; text-decoration: none;}
+a[href$=".ppt/file"]:before {content: url('./file_icons/ppt.png')}
+
+a[href$=".pptx/file"]:link{background-color: #ffddcc; border: 1px solid #ccaaaa;}
+a[href$=".pptx/file"]:visited{background-color: #ffddcc; border: 1px solid #ccaaaa;}
+a[href$=".pptx/file"]:active{background-color: #ffddcc; border: 1px solid #ccaaaa;}
+a[href$=".pptx/file"]:hover {color: #ffffff; background-color: #ae73b1; text-decoration: none;}
+a[href$=".pptx/file"]:before {content: url('./file_icons/ppt.png');}
+
+a[href$=".doc/file"]:link{background-color: #ddddff; border: 1px solid #ccaaaa;}
+a[href$=".doc/file"]:visited{background-color: #ddddff; border: 1px solid #ccaaaa;}
+a[href$=".doc/file"]:active{background-color: #ddddff; border: 1px solid #ccaaaa;}
+a[href$=".doc/file"]:hover {color: #ffffff; background-color: #ae73b1; text-decoration: none;}
+a[href$=".doc/file"]:before {content: url('./file_icons/doc.png');}
+
+a[href$=".docx/file"]:link{background-color: #ddddff; border: 1px solid #ccaaaa;}
+a[href$=".docx/file"]:visited{background-color: #ddddff; border: 1px solid #ccaaaa;}
+a[href$=".docx/file"]:active{background-color: #ddddff; border: 1px solid #ccaaaa;}
+a[href$=".docx/file"]:hover {color: #ffffff; background-color: #ae73b1; text-decoration: none;}
+a[href$=".docx/file"]:before {content: url('./file_icons/doc.png');}
+
+a[href$=".rar/file"]:link{background-color: #ccffcc; border: 1px solid #ccaaaa;}
+a[href$=".rar/file"]:visited{background-color: #ccffcc; border: 1px solid #ccaaaa;}
+a[href$=".rar/file"]:active{background-color: #ccffcc; border: 1px solid #ccaaaa;}
+a[href$=".rar/file"]:hover {color: #ffffff; background-color: #ae73b1; text-decoration: none;}
+a[href$=".rar/file"]:before {content: url('./file_icons/rar.png');}
+
+a[href$=".zip/file"]:link{background-color: #ccffcc; border: 1px solid #ccaaaa;}
+a[href$=".zip/file"]:visited{background-color: #ccffcc; border: 1px solid #ccaaaa;}
+a[href$=".zip/file"]:active{background-color: #ccffcc; border: 1px solid #ccaaaa;}
+a[href$=".zip/file"]:hover {color: #ffffff; background-color: #ae73b1; text-decoration: none;}
+a[href$=".zip/file"]:before {content: url('./file_icons/zip.png');}
+
+a[href$="announce"]:link{background-color: #77ff77; border: 1px solid #ccaaaa;}
+a[href$="announce"]:visited{background-color: #77ff77; border: 1px solid #ccaaaa;}
+a[href$="announce"]:active{background-color: #77ff77; border: 1px solid #ccaaaa;}
+a[href$="announce"]:hover {color: #ffffff; background-color: #ae73b1; text-decoration: none;}
+a[href$="announce"]:before {content: url('./file_icons/mag.gif');}
+
+
+
+a.top {border-bottom-style:dotted; border-bottom-width: 1px; border-bottom-color:#000000; text-decoration:none; background:transparent; margin: 2px; color: green; font-size: 16px;}
+p.tpb {margin: 2px; color: black; font-size: 1em;  background: #f0f0f0}
+p.tpb:nth-child(even) { margin: 2px; color: black; background: #dfdfdf}
+p.tp1 { margin: 2px; color: black; background: #dcdcdc}
+p.s1    {background:#aaaaaa; margin: 2px; color: #ffffff; font-size: 16px; padding-left: 0.5em; padding-right: 0.5em}
+p.s2    {background:#aaaaaa; margin: 2px; margin-top: 0px; color: #ffffff; font-size: 16px; border-bottom:1px solid; border-bottom-color:#d2b9a6; border-top:1px solid; border-top-color:#d2b9a6; border-top-style: dotted; font-weight: bold; padding-left: 0.5em; padding-right: 0.5em}
+.nav {padding: 0px; margin: 0px}
+.pfooter {background: #ffffff; height: 64px; text-align: center; margin: 16px; color: gray; font-size: 18px, padding: 16em;}
+.pfooter::before {content: "by Gira"}
+.hlogo {margin: 1em}
+
+@media screen and (max-width: 870px) {
+    .stojan {
+        width: 100%;
+    }
+}
